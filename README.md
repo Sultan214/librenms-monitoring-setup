@@ -224,7 +224,7 @@ docker compose exec db mariadb-dump -u librenms -p librenms > librenms-backup-$(
 - Put the web UI behind HTTPS (reverse proxy) and a firewall.
 - Do not expose the Syslog port to the internet.
 - Use a strong admin password and change default DB passwords.
-- Blur IPs, hostnames and site names before sharing screenshots.
+
 
 ---
 
